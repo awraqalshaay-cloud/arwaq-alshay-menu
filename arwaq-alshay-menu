@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071426">
+<meta name="description" content="أرواق الشاي - وجهتكم للمذاق الأصيل والمشروبات الساخنة والقهوة والبرادات.">
+<title>أرواق الشاي | المنيو الرسمي</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#071426;color:#f8f0dc;font-family:Tahoma,Arial,sans-serif;line-height:1.9}
+header{text-align:center;padding:40px 15px 32px;background:linear-gradient(145deg,#102744,#050b16);border-bottom:2px solid #c9a653}
+.logo{width:90px;height:90px;border:2px solid #c9a653;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:auto auto 15px;font-size:43px}
+h1{color:#e4c477;font-size:32px;margin:8px}
+header p{color:#ddd0ad;font-size:14px}
+.tagline{color:#c9a653;letter-spacing:2px}
+.container{max-width:700px;margin:auto;padding:20px}
+.intro{text-align:center;padding:25px 18px;margin:20px 0;background:linear-gradient(145deg,#10243b,#09182a);border:1px solid #a98945;border-radius:18px}
+.intro h2{color:#e4c477;font-size:25px}
+.intro p{color:#d4d0c6;font-size:14px;line-height:2.2}
+.intro h3{color:#e4c477;margin-top:20px}
+.category{color:#e4c477;font-size:21px;border-right:4px solid #c9a653;padding-right:12px;margin:30px 0 15px}
+.item{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#10243b;border:1px solid #263c53;border-radius:12px;padding:15px;margin-bottom:10px;transition:.3s}
+.item:hover{border-color:#c9a653;transform:translateY(-2px)}
+.item h3{font-size:15px;margin:0;color:#fff}
+.price{color:#e4c477;font-size:18px;font-weight:bold;white-space:nowrap}
+.currency{font-size:11px;color:#c9a653}
+.about{margin-top:35px;padding:22px;background:#10243b;border:1px solid #263c53;border-radius:15px}
+.about h2{color:#e4c477;text-align:center}
+.about p{color:#d4d0c6;font-size:14px;line-height:2.2}
+footer{text-align:center;border-top:1px solid #b79549;padding:30px 15px;margin-top:35px;color:#e4c477;line-height:2}
+footer p{color:#d4d0c6;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+ <div class="logo">☕</div>
+ <h1>أرواق الشاي</h1>
+ <div class="tagline">ARWAQ AL-SHAY</div>
+ <p>الأصالة في كل رشفة</p>
+</header>
+<main class="container">
+ <div class="intro">
+  <h2>مرحباً بكم في أرواق الشاي</h2>
+  <p>هنا تبدأ حكاية المذاق الأصيل، حيث تلتقي روعة الضيافة بتفاصيل تصنع لحظات جميلة. نقدم لكم تشكيلة متنوعة من المشروبات التي تناسب مختلف الأذواق، ونحرص على أن تجدوا في قائمتنا ما يرافق يومكم ويضيف إليه مذاقاً مميزاً.</p>
+  <p>من الشاي الأحمر والأزرق والشاي المغربي إلى الكرك ومشروبات الحليب، ومن القهوة العربية والتركية إلى المشروبات الساخنة والبرادات التي تجمع الأحباب؛ لكل مشروب مذاقه الخاص ولكل لحظة اختيارها المناسب.</p>
+  <p>سواء كنتم تبحثون عن استراحة هادئة، أو جلسة تجمعكم بمن تحبون، أو مشروب دافئ في بداية يومكم، يسعدنا أن نكون جزءاً من لحظاتكم الجميلة.</p>
+  <h3>أرواق الشاي.. الأصالة في كل رشفة ✨</h3>
+ </div>
+
+ <h2 class="category">🍵 الشاي</h2>
+ <div class="item"><h3>شاي أحمر وسط</h3><div class="price">5 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي أحمر كبير</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي أزرق وسط</h3><div class="price">5 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي أزرق كبير</h3><div class="price">8 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي توت أزرق وسط</h3><div class="price">6 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي توت أزرق كبير</h3><div class="price">8 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي أخضر وسط</h3><div class="price">5 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي أخضر كبير</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي مغربي وسط</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>نعناع طائفي وسط</h3><div class="price">6 <span class="currency">ريال</span></div></div>
+
+ <h2 class="category">🥛 شاي الحليب والكرك</h2>
+ <div class="item"><h3>شاي حليب وسط</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي حليب كبير</h3><div class="price">10 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي كرك وسط</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>شاي كرك كبير</h3><div class="price">10 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>حليب بالقرفة وسط</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>حليب بالزنجبيل وسط</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+
+ <h2 class="category">🌿 المشروبات الساخنة</h2>
+ <div class="item"><h3>يانسون وسط</h3><div class="price">6 <span class="currency">ريال</span></div></div>
+
+ <h2 class="category">🫖 البرادات</h2>
+ <div class="item"><h3>براد شاي 1 لتر</h3><div class="price">20 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>براد شاي 2 لتر</h3><div class="price">35 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>براد شاي كرك</h3><div class="price">25 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>براد شاي أخضر</h3><div class="price">20 <span class="currency">ريال</span></div></div>
+
+ <h2 class="category">☕ القهوة</h2>
+ <div class="item"><h3>قهوة تركية وسط</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>قهوة اليوم صغير</h3><div class="price">5 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>قهوة اليوم كبير</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>قهوة عربية وسط</h3><div class="price">7 <span class="currency">ريال</span></div></div>
+ <div class="item"><h3>دلة قهوة عربية مع تمر</h3><div class="price">30 <span class="currency">ريال</span></div></div>
+
+ <section class="about">
+  <h2>عن أرواق الشاي</h2>
+  <p>أرواق الشاي وجهتكم للمذاق الجميل والضيافة الأصيلة. نسعد بتقديم مشروبات متنوعة تناسب أوقاتكم وجلساتكم، ونتطلع دائماً إلى أن تكون زيارتكم تجربة مميزة تعودون إليها بكل سرور.</p>
+  <p>شكراً لاختياركم أرواق الشاي، ونسعد بزيارتكم دائماً.</p>
+ </section>
+ <footer>
+  <h2>أرواق الشاي</h2>
+  <p>مذاق يستحق التجربة ✨</p>
+  <p>الأصالة في كل رشفة</p>
+  <p>نسعد بزيارتكم دائماً</p>
+ </footer>
+</main>
+</body>
+</html>
